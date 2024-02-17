@@ -1,8 +1,8 @@
 <?php
 
-    $num1 = readline("Informe o primeiro número: ");
-    $num2 = readline("Informe o segundo número: ");
-    $num3 = readline("Informe o terceiro número: ");
+    $num1 = (int) readline("Informe o primeiro número: ");
+    $num2 = (int) readline("Informe o segundo número: ");
+    $num3 = (int) readline("Informe o terceiro número: ");
 
     if ($num3 > $num2 && $num2 > $num1) 
     {
